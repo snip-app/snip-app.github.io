@@ -7,6 +7,7 @@
 .icons-section .header-svg {
   left: 0;
   width: unset;
+  max-width: 100%;
 }
 
 .icon-section-sub-text {
