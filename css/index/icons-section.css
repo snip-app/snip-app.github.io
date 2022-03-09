@@ -1,5 +1,12 @@
 .icons-section {
-  padding-bottom: calc(var(--landing-page-default-large-padding) * 2);
+  padding-bottom: calc(var(--landing-page-default-large-padding) * 1);
+
+  position: relative;
+}
+
+.icons-section .header-svg {
+  left: 0;
+  width: unset;
 }
 
 .icon-section-sub-text {

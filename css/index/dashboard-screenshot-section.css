@@ -1,6 +1,7 @@
 .dashboard-screenshot-section {
   padding-top: calc(var(--landing-page-default-large-padding) * 2);
   padding-bottom: calc(var(--landing-page-default-large-padding) * 2);
+  position: relative;
 }
 
 .dashboard-screenshot-section h2 {
@@ -11,7 +12,6 @@
   width: var(--landing-page-default-image-width);
   max-width: 900px;
   margin-left: var(--landing-page-default-large-padding);
-  margin: 3em;
 }
 
 @media only screen and (max-width: 1300px) {
