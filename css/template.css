@@ -2,9 +2,9 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Nunito";
+  font-family: "Poppins";
+  font-weight: 700;
   background-color: var(--background-color-1);
-  color: var(--font-color-2);
   justify-content: center;
   align-items: center;
 
@@ -23,7 +23,7 @@ body * {
   letter-spacing: 0px;
   speak: none;
   font-style: normal;
-  font-weight: normal;
+  /* font-weight: normal; */
   font-variant: normal;
   text-transform: none;
   line-height: 1.25em;
@@ -69,6 +69,8 @@ h2,
 h3 {
   text-align: center;
   font-family: "Poppins";
+  font-weight: 700;
+  color: #222;
 }
 
 .nav-outer {
@@ -179,6 +181,8 @@ section:only-of-type {
 .section-sub-text {
   font-size: 1.25em;
   text-align: center;
+  font-weight: 400;
+  color: #3d3d3d;
 }
 
 .image-wrapper {
