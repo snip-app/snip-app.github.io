@@ -1,6 +1,6 @@
 .mobile-section {
   width: 100%;
-  max-width: 90em;
+  position: relative;
 }
 
 .mobile-section-image-wrapper {
